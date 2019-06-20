@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/color_d</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="animation_buttom">
+        <item name="android:windowEnterAnimation">@anim/window_up</item>
+        <item name="android:windowExitAnimation">@anim/window_down</item>
+    </style>
+</resources>
